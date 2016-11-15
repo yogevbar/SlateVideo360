@@ -119,12 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81D3ECC51D17F95A0000E1A5 /* Build configuration list for PBXNativeTarget "video360test" */;
 			buildPhases = (
-				A258BB13F5B0AED2B9DDC01D /* Check Pods Manifest.lock */,
+				A258BB13F5B0AED2B9DDC01D /* [CP] Check Pods Manifest.lock */,
 				81D3ECAA1D17F95A0000E1A5 /* Sources */,
 				81D3ECAB1D17F95A0000E1A5 /* Frameworks */,
 				81D3ECAC1D17F95A0000E1A5 /* Resources */,
-				0CA196FCA0BCE59FCE63823C /* Embed Pods Frameworks */,
-				CEC336007BB8ABE8A154C33A /* Copy Pods Resources */,
+				0CA196FCA0BCE59FCE63823C /* [CP] Embed Pods Frameworks */,
+				CEC336007BB8ABE8A154C33A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					81D3ECAD1D17F95A0000E1A5 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UMDX934VAH;
 					};
 				};
 			};
@@ -182,14 +183,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0CA196FCA0BCE59FCE63823C /* Embed Pods Frameworks */ = {
+		0CA196FCA0BCE59FCE63823C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,29 +198,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-video360test/Pods-video360test-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A258BB13F5B0AED2B9DDC01D /* Check Pods Manifest.lock */ = {
+		A258BB13F5B0AED2B9DDC01D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		CEC336007BB8ABE8A154C33A /* Copy Pods Resources */ = {
+		CEC336007BB8ABE8A154C33A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +350,10 @@
 			baseConfigurationReference = 0A494FDDB7A61D12D66B5BC9 /* Pods-video360test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UMDX934VAH;
 				INFOPLIST_FILE = video360test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = islate.video360test;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nomtek.Spherical-Video-Player.d";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,9 +363,10 @@
 			baseConfigurationReference = 1A663D9FF34013F55D6EBB6E /* Pods-video360test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UMDX934VAH;
 				INFOPLIST_FILE = video360test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = islate.video360test;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nomtek.Spherical-Video-Player.d";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
