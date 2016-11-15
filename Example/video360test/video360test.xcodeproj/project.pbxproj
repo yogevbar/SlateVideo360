@@ -15,6 +15,7 @@
 		81D3ECBC1D17F95A0000E1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D3ECBA1D17F95A0000E1A5 /* Main.storyboard */; };
 		81D3ECBE1D17F95A0000E1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D3ECBD1D17F95A0000E1A5 /* Assets.xcassets */; };
 		81D3ECC11D17F95A0000E1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D3ECBF1D17F95A0000E1A5 /* LaunchScreen.storyboard */; };
+		DD36668D1DDB4EF3004A5FCC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD36668C1DDB4EF3004A5FCC /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		81D3ECC21D17F95A0000E1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833DC800C6F6325C73B65A41 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C3E6B85167EFAC797BD83894 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DD36668B1DDB4EF3004A5FCC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		DD36668C1DDB4EF3004A5FCC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		E04438AC4523727D4A6419BC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +83,8 @@
 				81D3ECBF1D17F95A0000E1A5 /* LaunchScreen.storyboard */,
 				81D3ECC21D17F95A0000E1A5 /* Info.plist */,
 				81D3ECB11D17F95A0000E1A5 /* Supporting Files */,
+				DD36668B1DDB4EF3004A5FCC /* TestViewController.h */,
+				DD36668C1DDB4EF3004A5FCC /* TestViewController.m */,
 			);
 			path = video360test;
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 			files = (
 				81D3ECB91D17F95A0000E1A5 /* ViewController.m in Sources */,
 				81D3ECB61D17F95A0000E1A5 /* AppDelegate.m in Sources */,
+				DD36668D1DDB4EF3004A5FCC /* TestViewController.m in Sources */,
 				81D3ECB31D17F95A0000E1A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

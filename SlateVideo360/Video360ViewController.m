@@ -89,10 +89,9 @@
 - (void)configureCardboardView
 {
     _cardboardVC = [[CardboardViewController alloc] init];
-    
     _cardboardVC.videoPlayerController = self;
     
-    [self.view insertSubview:_cardboardVC.view belowSubview:self.playerControlBackgroundView];
+    [self.view insertSubview:_cardboardVC.view atIndex:0];
     [self addChildViewController:_cardboardVC];
     [_cardboardVC didMoveToParentViewController:self];
     
