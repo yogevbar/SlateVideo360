@@ -14,7 +14,7 @@
 
 - (IBAction)playURL:(id)sender
 {
-    NSURL *url = [NSURL URLWithString:@"http://d8d913s460fub.cloudfront.net/krpanocloud/video/airpano/video-1920x960a.mp4"];
+    NSURL *url = [NSURL URLWithString:@"https://cdn.doremeet.com/live/hls/161105-maor-sample/index.m3u8"];
     TestViewController *vc = [[TestViewController alloc] init];
     vc.url = url;
 //    Video360ViewController *videoController = [[Video360ViewController alloc] initWithNibName:@"HTY360PlayerVC" bundle:nil url:url];

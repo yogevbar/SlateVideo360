@@ -41,12 +41,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     self.preferredFramesPerSecond = 30.0f;
-    
-    UITapGestureRecognizer *singleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleSingleTapGesture:)];
-    singleTapRecognizer.numberOfTapsRequired = 1;
-    [self.view addGestureRecognizer:singleTapRecognizer];
 }
 
 - (void)setVideoPlayerController:(HTY360PlayerVC *)videoPlayerController
@@ -85,15 +80,6 @@
 - (void)finishFrameWithViewportRect:(CGRect)viewPort
 {
     [self.videoRenderer finishFrameWithViewportRect:viewPort];
-}
-
-- (void)handleSingleTapGesture:(UITapGestureRecognizer *)recognizer
-{
-    [_videoPlayerController toggleControls];
-}
-
--(void)enableCardboard:(BOOL)enable{
-    
 }
 
 @end
