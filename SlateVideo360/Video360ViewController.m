@@ -68,6 +68,10 @@
 
 - (IBAction)cardboardButtonTouched:(id)sender
 {
+    [self enableCardboard];
+}
+
+-(void)enableCardboard{
     _isUsingCardboard = !_isUsingCardboard;
     _cardboardButton.selected = _isUsingCardboard;
     if (_isUsingCardboard) {

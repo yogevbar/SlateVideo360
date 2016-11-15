@@ -14,7 +14,7 @@
 
 - (IBAction)playURL:(id)sender
 {
-    NSURL *url = [NSURL URLWithString:@"http://7b1gcw.com1.z0.glb.clouddn.com/demo1.mp4"];
+    NSURL *url = [NSURL URLWithString:@"http://d8d913s460fub.cloudfront.net/krpanocloud/video/airpano/video-1920x960a.mp4"];
     Video360ViewController *videoController = [[Video360ViewController alloc] initWithNibName:@"HTY360PlayerVC" bundle:nil url:url];
     
     if (![[self presentedViewController] isBeingDismissed]) {

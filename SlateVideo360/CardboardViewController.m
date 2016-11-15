@@ -92,4 +92,8 @@
     [_videoPlayerController toggleControls];
 }
 
+-(void)enableCardboard:(BOOL)enable{
+    
+}
+
 @end

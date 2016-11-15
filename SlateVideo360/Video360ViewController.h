@@ -11,5 +11,5 @@
 #import "HTY360PlayerVC.h"
 
 @interface Video360ViewController : HTY360PlayerVC
-
+-(void)enableCardboard;
 @end
