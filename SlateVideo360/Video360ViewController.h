@@ -12,4 +12,5 @@
 
 @interface Video360ViewController : HTY360PlayerVC
 -(void)enableCardboard;
+-(void)removeViews;
 @end

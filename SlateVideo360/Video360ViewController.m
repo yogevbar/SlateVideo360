@@ -47,6 +47,11 @@
     [self removeGLKView];
 }
 
+-(void)removeViews{
+    [self removeCardboardView];
+    [self removeGLKView];
+}
+
 // 锁死横屏
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
 {
