@@ -25,20 +25,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    [self configureCardboardButton];
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear: animated];
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO];
 }
 
 - (void)dealloc
@@ -64,17 +50,6 @@
 }
 
 #pragma mark cardboard button
-
-- (void)configureCardboardButton
-{
-    _cardboardButton.backgroundColor = [UIColor clearColor];
-    _cardboardButton.showsTouchWhenHighlighted = YES;
-}
-
-- (IBAction)cardboardButtonTouched:(id)sender
-{
-    [self enableCardboard];
-}
 
 -(void)enableCardboard{
     _isUsingCardboard = !_isUsingCardboard;

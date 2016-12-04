@@ -359,7 +359,7 @@
 				DEVELOPMENT_TEAM = UMDX934VAH;
 				INFOPLIST_FILE = video360test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nomtek.Spherical-Video-Player.d";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yogev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -372,7 +372,7 @@
 				DEVELOPMENT_TEAM = UMDX934VAH;
 				INFOPLIST_FILE = video360test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nomtek.Spherical-Video-Player.d";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.yogev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -1,4 +1,5 @@
 target "video360test" do
-pod 'HTY360Player', :git => 'https://github.com/yogevbar/HTY360Player.git'
+#pod 'HTY360Player', :git => 'https://github.com/yogevbar/HTY360Player.git'
+pod 'HTY360PlayerLite', :git => 'https://github.com/islate/HTY360PlayerLite.git'
 pod 'SlateVideo360', :git => 'https://github.com/yogevbar/SlateVideo360.git'
 end
